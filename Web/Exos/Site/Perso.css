@@ -1,0 +1,55 @@
+/*card*/
+.card{
+    border: 3px solid white;
+    box-shadow: 5px 5px #000, 5px -5px #000;
+    border-radius:15px;
+    width: 180px;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    white-space: normal;
+
+}
+
+
+.img-card{
+    border: 1px solid white;
+    border-radius: 25px;
+    width :150px;
+    height :120px;
+    object-fit: cover
+}
+
+.titre {
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+
+.despciption{
+    margin-top: 25px;
+    overflow: hidden;
+    max-lines: 3;
+    max-height: 3.5em;
+}
+/*Page*/
+
+.Personnage{
+    padding-top: 82px;
+}
+.secondaire{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.Principal{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
