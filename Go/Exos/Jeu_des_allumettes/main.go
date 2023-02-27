@@ -5,15 +5,13 @@ import (
 )
 
 func main() {
-	var nbr_allumette int 
-	var nbr_enlever int 
+	var nbr_allumette int
+	var nbr_enlever int
 	var cmpt int
 	cmpt = 0
-	scanner := bufio.NewScanner(os.Stdin)
 
 	fmt.Println("Choisissez un nombre d'allumettes :")
-	scanner.Scan()
-	nbr_allumette = scanner.Text()
+	fmt.Scan(&nbr_allumette)
 
 	for nbr_allumette > 0 {
 		fmt.Println("Combien d'allumettes souhaitez-vous enlever ?")
@@ -39,5 +37,5 @@ func main() {
 	} else {
 		fmt.Println("Le joueur 2 a perdu")
 	}
-	
+
 }
